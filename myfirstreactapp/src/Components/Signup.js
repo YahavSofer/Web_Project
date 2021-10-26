@@ -6,6 +6,7 @@ export default function Signup() {
     const passwordRef = useRef()
     const passworConfirmationdRef =useRef()
     return (
+        <>
         <Card>
             <Card.Body>
                 <h2 className="text-center mb-4">Sign Up</h2>
@@ -25,10 +26,10 @@ export default function Signup() {
                     <Button type='submit' className='w-100'>Sign up</Button>        
                 </Form>               
             </Card.Body>
-
+        </Card>
             <div className="w-100 text-center mt-2"> 
                 Already have an account ? Log In    
             </div>
-        </Card>
+    </>
     )
 }
