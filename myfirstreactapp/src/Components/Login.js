@@ -44,7 +44,9 @@ export default function Login() {
                     <Button disabled={loading} type='submit' className='w-100'>
                         Log In
                     </Button>
-
+                    <div className="w-100 text-center mt-2">
+                        <Link to='/forgot-password'>Forgot password ?</Link>
+                    </div>
                 </Form>               
             </Card.Body>
         </Card>
