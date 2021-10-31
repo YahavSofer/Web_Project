@@ -54,7 +54,11 @@ export default function Login() {
                 Don't have account ? <Link to='/signup'>Sign Up</Link>    
             </div>
         {/* hello world */}
+<<<<<<< HEAD
         {/* sami create */}
+=======
+        {/* Yonatan Check */}
+>>>>>>> c764a055eae5bcadbc4e064aab877c4da85c07a7
     </>
     )
 }
