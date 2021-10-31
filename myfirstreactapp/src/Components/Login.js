@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react'
-import {Alert, Button, Card, Form} from 'react-bootstrap'
+import {Alert, Button, Card, Form,Container} from 'react-bootstrap'
 import { useAuth } from '../context/AuthContext'
 import { Link , useHistory } from 'react-router-dom'
 
@@ -27,6 +27,13 @@ export default function Login() {
     }
     return (
         <>
+        <Container>
+            sdflilaslg
+            sdkjhalkgh
+        </Container>
+
+
+        <Container>
         <Card>
             <Card.Body>
                 <h2 className="text-center mb-4">Log In</h2>
@@ -53,7 +60,7 @@ export default function Login() {
             <div className="w-100 text-center mt-2"> 
                 Don't have account ? <Link to='/signup'>Sign Up</Link>    
             </div>
-        {/* hello world */}
+    </Container>
     </>
     )
 }
